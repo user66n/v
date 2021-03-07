@@ -1,4 +1,20 @@
-
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "DarkDex";
+ Text = "Dex Explorer By tyrone#8892";
+ Icon = "";
+ Duration = 3;
+ Callback = NotificationBindable;
+})
+print("Dex Explorer By tyrone#8892")
+print("Enjoy")
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "DarkDex";
+ Text = "Enjoy";
+ Icon = "";
+ Duration = 3;
+ Callback = NotificationBindable;
+})
+wait(5)
 --[[
 AztupBrew(Fork of IronBrew2): obfuscation; Version 2.7.2
 ]]
